@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+
+% Core packages for a reusable document template.
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdftitle={Document Title},
+    pdfauthor={Author Name}
+}
+
+\onehalfspacing
+
+\title{Document Title}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Replace this text with a concise summary of the document.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+Write the introduction here. Replace the placeholder text as you develop the
+document.
+
+\section{Main Content}
+\subsection{First Subsection}
+Add your content here. Use \verb|\section| and \verb|\subsection| to organize
+the document.
+
+\subsection{Example Equation}
+Equations can be written as follows:
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+\section{Conclusion}
+Summarize the main points here.
+
+\begin{thebibliography}{9}
+\bibitem{example}
+Author Name,
+\textit{Example Reference Title},
+Publisher or Journal, Year.
+\end{thebibliography}
+
+\end{document}
